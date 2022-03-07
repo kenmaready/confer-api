@@ -131,7 +131,7 @@ app.post('/', (req, res) => {
 app.get('/', (req, res) => {
     res.json({
         success: true,
-        message: "Welcome to the confer api."
+        message: "Welcome to Confer. The civilized way to tell someone they're on mute."
     })
 })
 
